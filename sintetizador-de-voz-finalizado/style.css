@@ -1,0 +1,141 @@
+/* Reset simples e fontes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 25px;
+}
+
+.box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+/* Módulo 3: Estado Ativo de Feedback Visual */
+.box.speaking {
+  border-color: #2ecc71;
+  box-shadow: 0 4px 25px rgba(46, 204, 113, 0.2);
+  background-color: #fafdfb;
+}
+
+.box.speaking button {
+  background-color: #2ecc71;
+  animation: pulse 1.5s infinite;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  resize: none;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+textarea:focus {
+  border-color: #3498db;
+}
+
+/* Alinhamento dos Controles */
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+}
+
+.control-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+select,
+input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  background: white;
+}
+
+input[type="range"] {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Animação do botão falando */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
