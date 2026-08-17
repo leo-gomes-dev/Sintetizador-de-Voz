@@ -16,7 +16,7 @@ O projeto contém duas pastas principais:
 ### 1. Clonar ou Baixar o Repositório
 Abra o seu terminal e clone o projeto com o Git:
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/leo-gomes-dev/Sintetizador-de-Voz.git
 ```
 *Caso não utilize Git, clique no botão **Code > Download ZIP** no topo desta página e extraia a pasta em seu computador.*
 
