@@ -6,7 +6,7 @@ Este repositório foi estruturado para o aprendizado prático da manipulação d
 
 O projeto contém duas pastas principais:
 
-1. **`sintetizador-de-voz-limpo/`**: É o ponto de partida do aluno. Contém a estrutura HTML básica centralizada, estilos visuais iniciais e uma lógica JavaScript simples. Os alunos devem abrir esta pasta para realizar as atividades de programação.
+1. **`sintetizador-de-voz-limpo/`**: É o ponto de partida para você aluno. Contém a estrutura HTML básica centralizada, estilos visuais iniciais e uma lógica JavaScript simples. Os alunos devem abrir esta pasta para realizar as atividades de programação.
 2. **`sintetizador-de-voz-finalizado/`**: É o gabarito completo do professor. Contém todas as funcionalidades, controles dinâmicos de áudio, seleção de voz assíncrona e feedbacks visuais aplicados com sucesso. Deve ser usado apenas para consulta ou após a entrega do exercício.
 
 ---
